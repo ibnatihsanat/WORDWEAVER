@@ -39,19 +39,22 @@ header {
 }
 
 nav {
+    margin-top: -4rem;
     display: flex;
     justify-content: space-between;
 }
 
 nav img {
-    width: 10rem;
-    height: 10rem;
+    margin-top: 3rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
 }
 
 ul {
     display: flex;
     margin: 5rem;
+    margin-top: 6rem;
 }
 
 ul li {
@@ -92,6 +95,69 @@ ul a:hover {
 
 .mobilenav {
     display: none;
+}
+
+footer {
+    margin-top: 5rem;
+    /* background-image: linear-gradient(30deg, goldenrod, #773c9c); */
+    /* background-image: linear-gradient(-255deg, #65379B, #4c40a2, goldenrod); */
+    background-image: radial-gradient(circle at 10% 20%, #773c9c 0%, #7761bf 90.1%);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.footer-logo img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.footer-items {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav li {
+    margin-right: 2rem;
+}
+
+.footer-nav a {
+    /* color: rgb(120, 46, 120); */
+    color: goldenrod;
+}
+
+.footer-socials {
+    display: flex;
+}
+
+.footer-socials h2 {
+    /* color: rgb(120, 46, 120); */
+    color: goldenrod;
+}
+
+.footer-socials a {
+    margin: 0rem 2rem;
+}
+
+.footer-socials svg {
+    border: none;
+}
+
+.footer-socials a svg:hover {
+    fill: purple;
+}
+
+.right {
+    /* color: rgb(120, 46, 120); */
+    color: goldenrod;
 }
 
 @media screen and (max-width:567px) {

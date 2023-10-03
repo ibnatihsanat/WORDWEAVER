@@ -51,3 +51,14 @@ body {
 p {
     color: purple;
 }
+
+@media screen and (max-width:567px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-logo img {
+        width: 5rem;
+        height: 5rem;
+    }
+}
