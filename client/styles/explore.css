@@ -1,0 +1,53 @@
+body {
+    background-color: lightgray;
+}
+
+.genre-head {
+    color: goldenrod;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.genres {
+    text-align: center;
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+
+.genre-items {
+    display: flex;
+    margin: 2rem 0rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.genre-part {
+    background-color: gainsboro;
+    margin: 0rem 2rem;
+    width: 20rem;
+    height: auto;
+    padding: 2rem 0rem;
+    border: 2px solid purple;
+    border-radius: 2rem;
+    box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -webkit-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -moz-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+}
+
+.genre-part:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.genre-part img {
+    width: 12rem;
+    height: 10rem;
+    border-radius: 2rem;
+}
+
+.genre-part h4,
+p {
+    color: purple;
+}

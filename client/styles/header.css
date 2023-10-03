@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    /* background-color: #eddffd; */
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+header {
+    position: relative;
+    height: 45rem;
+    height: auto;
+    width: 100%;
+    padding: 2rem 5rem;
+    background-image: url(../images/Purple\ Majesty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+ul {
+    display: flex;
+    margin: 5rem;
+}
+
+ul li {
+    margin: 0rem 2rem;
+}
+
+ul a {
+    /* color: #BB58FF; */
+    color: gold;
+    transition: 0.3s ease-in-out;
+    font-size: 1.2rem;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    color: magenta;
+}
+
+.header-main {
+    display: flex;
+}
+
+.profile {
+    margin-top: 4rem;
+}
+
+.profile img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+}
+
+.profile p {
+    color: goldenrod;
+    text-align: center;
+}
+
+.mobilenav {
+    display: none;
+}
+
+@media screen and (max-width:567px) {
+    .header-main {
+        display: none;
+    }
+
+
+    .mobilenav img {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        margin-left: -2rem;
+    }
+
+    .mobilenav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobilenav li {
+        margin-top: 1.5rem;
+        margin-right: -3rem;
+    }
+}

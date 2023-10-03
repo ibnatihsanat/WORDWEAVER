@@ -1,0 +1,96 @@
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.login-body {
+    margin-top: 5rem;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4rem 0rem;
+}
+
+main img {
+    border-radius: 0rem 4rem 4rem 0rem;
+}
+
+.my-form {
+    background-color: white;
+    margin-right: 8rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    border-radius: 2rem;
+    box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -webkit-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -moz-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+}
+
+.my-form h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #773c9c;
+}
+
+.my-form section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+label {
+    font-size: 1.25rem;
+    color: #773c9c;
+    margin: 0rem 1rem;
+
+}
+
+input {
+    height: 2.5rem;
+    outline: none;
+    margin: 0.5rem 0rem;
+    font-size: 1rem;
+    margin: 0rem 1rem;
+    border: 1px solid goldenrod;
+}
+
+input::placeholder {
+    color: goldenrod;
+}
+
+.btn-submit,
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn-submit button {
+    background-color: goldenrod;
+    border: none;
+    color: #773c9c;
+    border: none;
+    width: 100%;
+    max-width: 9.375rem;
+    height: 2rem;
+    border-radius: .625rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.alert p {
+    font-size: 1.1rem;
+    color: #773c9c;
+}
+
+.alert a {
+    text-decoration: underline;
+    font-size: 0.9rem;
+    color: goldenrod;
+}
