@@ -192,8 +192,7 @@ footer {
 
     .words {
         flex-direction: column;
-        /* transform: none; */
-        transform: skewX(-2deg);
+        transform: none;
     }
 
     .words p {

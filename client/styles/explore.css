@@ -61,4 +61,13 @@ p {
         width: 5rem;
         height: 5rem;
     }
+
+    .genre-items {
+        flex-direction: column;
+    }
+
+    .genre-part {
+        margin: 2rem 0rem;
+        width: 18rem;
+    }
 }
