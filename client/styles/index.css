@@ -209,6 +209,7 @@ footer {
 
     footer {
         flex-direction: column;
+        padding-left: 0.2rem;
     }
 
     .footer-logo img {
