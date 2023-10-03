@@ -69,4 +69,8 @@
         width: 5rem;
         height: 5rem;
     }
+
+    .footer-items {
+        margin-left: 0rem;
+    }
 }

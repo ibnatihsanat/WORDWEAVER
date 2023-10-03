@@ -6,8 +6,8 @@ button:hover {
 .login-body {
     margin-top: 5rem;
     display: flex;
-    height: auto;
     justify-content: space-between;
+    height: auto;
     width: 100%;
     padding: 4rem 0rem;
 }
@@ -21,7 +21,7 @@ main img {
     margin-right: 8rem;
     margin-top: 8rem;
     margin-bottom: 2rem;
-    width: 30rem;
+    width: 40%;
     height: auto;
     border-radius: 2rem;
     box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
@@ -99,9 +99,19 @@ input::placeholder {
         display: none;
     }
 
+
     .my-form {
         margin-top: 0rem;
-        margin-left: 5rem;
+        width: 50rem;
+    }
+
+    .login-body {
+        margin-top: 1rem;
+        padding-left: 2rem;
+    }
+
+    .my-form h2 {
+        width: 20rem;
     }
 
     footer {
@@ -112,5 +122,9 @@ input::placeholder {
     .footer-logo img {
         width: 5rem;
         height: 5rem;
+    }
+
+    .footer-items {
+        margin-left: 0rem;
     }
 }

@@ -192,7 +192,7 @@ footer {
 
     .words {
         flex-direction: column;
-        transform: none;
+        transform: skewX(-1.5deg);
     }
 
     .words p {
@@ -206,13 +206,18 @@ footer {
         height: 15rem;
     }
 
+
     footer {
         flex-direction: column;
-        padding-left: 0.2rem;
+        padding-left: 1rem;
     }
 
     .footer-logo img {
         width: 5rem;
         height: 5rem;
+    }
+
+    .footer-items {
+        margin-left: 0rem;
     }
 }

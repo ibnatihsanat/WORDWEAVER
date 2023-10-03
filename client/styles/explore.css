@@ -62,6 +62,10 @@ p {
         height: 5rem;
     }
 
+    .footer-items {
+        margin-left: 0rem;
+    }
+
     .genre-items {
         flex-direction: column;
     }

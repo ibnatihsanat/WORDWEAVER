@@ -38,6 +38,10 @@ header {
 
 }
 
+.mobile-nav {
+    display: none;
+}
+
 nav {
     margin-top: -4rem;
     display: flex;
@@ -165,7 +169,7 @@ footer {
         display: none;
     }
 
-
+    /* 
     .mobilenav img {
         width: 5rem;
         height: 5rem;
@@ -181,5 +185,74 @@ footer {
     .mobilenav li {
         margin-top: 1.5rem;
         margin-right: -3rem;
+    } */
+    .mobile-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-icon {
+        cursor: pointer;
+        margin-top: -3rem;
+        margin-left: 15rem;
+    }
+
+    h3 {
+        color: goldenrod;
+        margin-top: -0.5rem;
+        margin-left: -2rem;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: goldenrod;
+        transition: 0.4s;
+    }
+
+    .header-nav {
+        display: none;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 60%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        background-color: lightgray;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* z-index: 999; */
+    }
+
+    .header-nav li {
+        margin: 1rem 0rem;
+    }
+
+    .header-nav a {
+        color: goldenrod;
+    }
+
+    .header-nav.show {
+        display: flex;
+    }
+
+    .close-icon {
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: goldenrod;
+    }
+
+
+
+    #logo {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
     }
 }
