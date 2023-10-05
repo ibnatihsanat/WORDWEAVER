@@ -42,6 +42,10 @@ header {
     display: none;
 }
 
+#heading {
+    display: none;
+}
+
 nav {
     margin-top: -4rem;
     display: flex;
@@ -169,23 +173,10 @@ footer {
         display: none;
     }
 
-    /* 
-    .mobilenav img {
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
-        margin-left: -2rem;
+    #heading {
+        display: block;
     }
 
-    .mobilenav {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .mobilenav li {
-        margin-top: 1.5rem;
-        margin-right: -3rem;
-    } */
     .mobile-nav {
         display: flex;
         align-items: center;
@@ -199,7 +190,6 @@ footer {
 
     h3 {
         color: goldenrod;
-        margin-top: -0.5rem;
         margin-left: -2rem;
     }
 
@@ -219,13 +209,14 @@ footer {
         position: fixed;
         top: 0;
         right: 0;
-        height: 100vh;
-        background-color: lightgray;
+        height: 75vh;
+        background-color: #773c9c;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        /* z-index: 999; */
+        z-index: 999;
+        border-radius: 1rem 0rem 0rem 1rem;
     }
 
     .header-nav li {
