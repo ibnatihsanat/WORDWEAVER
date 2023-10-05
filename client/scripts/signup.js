@@ -1,4 +1,4 @@
-// const uri = 'https://tulipbeautysalon-api.onrender.com'     // the server url
+const uri = 'https://wordweaver-api.onrender.com'     // the server url
 
 const details = document.querySelectorAll('input')
 
@@ -16,15 +16,15 @@ btn.addEventListener('click', (e) => {
     else if (details[3].value !== details[4].value) {
         msg.innerText = "Passwords do not match"
     }
-    // else {
-    //     let user = {
-    //         firstname: details[0].value,
-    //         lastname: details[1].value,
-    //         email: details[2].value,
-    //         password: details[3].value
-    //     }
+    else {
+        let user = {
+            firstname: details[0].value,
+            lastname: details[1].value,
+            email: details[2].value,
+            password: details[3].value
+        }
 
-    //     createAccount(user)
-    // }
+        createAccount(user)
+    }
 
 })
