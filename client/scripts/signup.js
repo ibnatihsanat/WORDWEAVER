@@ -24,7 +24,7 @@ btn.addEventListener('click', (e) => {
             password: details[3].value
         }
 
-        createAccount(user)
+        // createAccount(user)
     }
 
 })
